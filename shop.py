@@ -6,7 +6,7 @@ from protocols.agent import (
 from uagents import Agent, Context
 from uagents.setup import fund_agent_if_low
  
-AGENT_ADDRESS = "agent1qw50wcs4nd723ya9j8mwxglnhs2kzzhh0et0yl34vr75hualsyqvqdzl990"
+AGENT_ADDRESS = "agent1q2ukr5ult5epwlfpjgtntl68dfn5srtjlnakzw9umvu2useqhga22e3sltk"
  
 shopkeeper = Agent(
     name="shopkeeper",
@@ -14,7 +14,7 @@ shopkeeper = Agent(
     seed="shopkeeper secret phrase",
     endpoint=["http://127.0.0.1:8000/submit"],
 )
- 
+
 fund_agent_if_low(shopkeeper.wallet.address())
  
 order = QueryStockRequest(  category=3,

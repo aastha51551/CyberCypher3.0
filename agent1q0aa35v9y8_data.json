@@ -1,0 +1,32 @@
+{
+    "1": {
+        "demand": 10,
+        "stock": 8,
+        "freq": 15
+    },
+    "2": {
+        "demand": 19,
+        "stock": 30,
+        "freq": 20
+    },
+    "3": {
+        "demand": 9,
+        "stock": 12,
+        "freq": 30
+    },
+    "1": {
+        "demand": 10,
+        "stock": 8,
+        "freq": 15
+    },
+    "2": {
+        "demand": 19,
+        "stock": 30,
+        "freq": 20
+    },
+    "3": {
+        "demand": 9,
+        "stock": 12,
+        "freq": 30
+    }
+}
