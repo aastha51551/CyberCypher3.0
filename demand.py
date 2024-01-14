@@ -19,6 +19,7 @@ CATEGORIES = {
     1: categoryStatus(demand=10,stock=8,freq=15),
     2: categoryStatus(demand=19,stock=30,freq=20),
     3: categoryStatus(demand=9,stock=12,freq=30),
+    4: categoryStatus(demand=15,stock=14,freq=25),
 }
  
 for (number, status) in CATEGORIES.items():
